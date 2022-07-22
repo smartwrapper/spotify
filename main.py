@@ -6,6 +6,7 @@ def exit_with_usage():
     exit("usage: python main.py <input-file> <changes-file> <output-file>")
 
 
+# entry point
 if __name__ == '__main__':
   if len(sys.argv) != 4:
     exit_with_usage()
